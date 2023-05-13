@@ -1,0 +1,49 @@
+.profile{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+body{ 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+    background-color: black;
+}
+.abt{
+    text-align:left;
+    font-size: 13px;
+    color: white;
+}
+.progress{
+    height: 10px;
+    width: 200px;
+}
+.icon{    
+    color: red;
+    font-size: 25px;
+    margin-left: 15%; 
+}
+footer{
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+}
+.autotype{
+    color: red;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+hr{
+    color: grey;
+}
+
+.nav-link:hover{
+    background-color: #2b323c;
+    color: white;
+    box-shadow: 0px 0px 2px 7px #2b323c;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
