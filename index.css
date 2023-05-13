@@ -9,12 +9,12 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover; 
     background-size: cover;
-    background-color: black;
+    background-color: white;
 }
 .abt{
     text-align:left;
     font-size: 13px;
-    color: white;
+    color: black;
 }
 .progress{
     height: 10px;
