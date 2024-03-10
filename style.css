@@ -33,6 +33,7 @@ nav {
 .logo .fa-solid{
   font-size: 50px;
   color: #fd4766;
+  cursor: pointer;
 }
 nav ul li {
   list-style: none;
