@@ -61,16 +61,14 @@ nav ul li a:after {
 nav ul li a:hover:after {
   width: 100%;
 }
-.hidden{
+.animated-element{
   opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-100%);
-  transition: all1s;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
-.show{
+.visible{
   opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
+  transform: translateY(0);
 }
 .btn {
   color: #fff;
@@ -98,7 +96,7 @@ nav ul li a:hover:after {
 
 .content .title {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 4px;
   display: inline-block;
@@ -114,7 +112,7 @@ nav ul li a:hover:after {
 }
 .content h1 {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 900;
   line-height: 90px;
   text-transform: inherit;
@@ -187,7 +185,7 @@ nav ul li a:hover:after {
 }
 .sbtl{
   color:#fd4766;
-  font-size: 15px;
+  font-size: 15px;    
   text-align:center;
 }
 .gtint{
