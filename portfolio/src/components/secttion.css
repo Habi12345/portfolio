@@ -1,0 +1,15 @@
+.section{
+    padding: 20px;
+    color: #E5E7EB;
+    margin-top: 40px;
+  }
+  .dev-Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 70px;
+  }
+  .dev-Icon span{
+    font-size: 70px;
+  }
