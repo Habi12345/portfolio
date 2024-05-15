@@ -2,14 +2,30 @@
     padding: 20px;
     color: #E5E7EB;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .dev-Icon{
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     margin-top: 20px;
-    padding: 0 70px;
+    padding: 0 50px;
   }
   .dev-Icon span{
-    font-size: 70px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .dev-Icon span:hover{
+    color: #ffe54c ;
+    transition: 1s;
+  }
+  .dev-Icon p{
+    text-align: center;
+    color: #ffe54c;
+  }
+  .projects{
+    background-color: #E5E7EB;
   }

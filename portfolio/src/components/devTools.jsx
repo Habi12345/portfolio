@@ -24,5 +24,8 @@ export default[
     {
         icon: <i class="fa-brands fa-react"></i>,
         name: "React"
+    },{
+        icon: <i class="fa-brands fa-git-alt"></i>,
+        name: "Git"
     }
 ]

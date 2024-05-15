@@ -29,7 +29,7 @@ const Main = () => {
         <span className='dev'>a &lt;web developer/&gt;</span>
       </div>
       <div id="hire-me" className='button-container'>
-        <button class="button-53" role="button">Hire Me</button>
+        <button className='button-53' role="button">Hire Me</button>
       </div>
     </div>
   )
