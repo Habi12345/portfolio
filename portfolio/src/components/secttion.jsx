@@ -1,7 +1,6 @@
 import React from 'react'
 import '../components/secttion.css'
 import devTools from '../components/devTools'
-import projects from '../components/projects'
 export default function secttion() {
     const showIcons = devTools.map((tool) => (
         <div className="dev-Icon" key={tool.id}>
@@ -18,9 +17,8 @@ export default function secttion() {
                 </div>
             </div>
             <div className='section'>
-                <span className='dev-header'> <strike>development</strike> <strong>Process</strong></span>
-                <p>Lorem ipsum, oluptatum iure.</p>   
-                {projects}
+                <span className='dev-header'> <strike>developed</strike> Apps<strong></strong></span>
+                <p>Collection of of my Projects and more projects on my Github 0</p>   
             </div>
         </>
     )

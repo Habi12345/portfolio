@@ -19,7 +19,7 @@
     cursor: pointer;
   }
   .dev-Icon span:hover{
-    color: #ffe54c ;
+    color: #ffc003;
     transition: 1s;
   }
   .dev-Icon p{
@@ -27,5 +27,43 @@
     color: #ffe54c;
   }
   .projects{
-    background-color: #E5E7EB;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .project-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fede27;
+    padding: 20px 50px;
+    width: 200px;
+    height: 150px;
+    color: #E5E7EB;
+  }
+  .project-wrapper:hover{
+    background-color: #ffc003;
+    transition: 1s;
+  }
+  .project-wrapper .icon svg{
+    
+  }
+  .project-wrapper .project-name{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .project-wrapper a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: small;
+    
+  }
+  .project-wrapper a:hover{
+    color: #ffffff ;
   }
