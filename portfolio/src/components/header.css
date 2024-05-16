@@ -28,7 +28,7 @@
     color: #E5E7EB;
 }
 .mid-text li a:hover{
-    color: #ffe54c;
+    color: #ffc003;
     transition: 1s;
 }
 .mid-text2{
@@ -47,7 +47,7 @@
     color: white;
 }
 .mid-text2 li a:hover{
-    color: #ffe54c;
+    color: #ffc003;
     transition: 1s;
 }
 .space-invader {
