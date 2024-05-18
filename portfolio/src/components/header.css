@@ -5,7 +5,7 @@
     height: 70px;
     width: auto;
     padding: 0 10px;
-    color: white;
+    color: #E5E7EB;
     font-weight: 500;
 }
 .header span{
@@ -90,3 +90,20 @@
     overflow: hidden;
     position: relative;
   }
+
+@media (max-width: 768px) {
+ .header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+ .mid-text,
+ .mid-text2 {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+ .mid-text li,
+ .mid-text2 li {
+    margin: 0 5px;
+  }
+}
