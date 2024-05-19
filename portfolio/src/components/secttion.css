@@ -94,6 +94,8 @@
 
 @media (max-width: 768px) {
  .dev-Icon {
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     padding: 0 20px;
   }
