@@ -7,6 +7,7 @@
     padding: 0 10px;
     color: #E5E7EB;
     font-weight: 500;
+    animation: fadeIn 1s ease-in-out;
 }
 .header span{
     margin-left: 20px;
