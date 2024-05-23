@@ -94,9 +94,10 @@
 
 @media (max-width: 768px) {
   .dev-Icon-wrapper{
-    display: inline-block;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     
   }
  .dev-Icon {
@@ -104,7 +105,7 @@
     justify-content: center;
     flex-direction: row;
     padding: 10px 20px;
-    width: 150px;
+    width: 50%;
     margin-left: 50px;
   }
 
