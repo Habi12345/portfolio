@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import '../components/header.css'
+import '../components/styles/header.css'
 export default function header() {
   return (
     <div data-aos="fade-down"  className='header'>

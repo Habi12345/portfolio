@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import '../components/body.css'
+import '../components/styles/body.css'
 
 const Body = () => {
 

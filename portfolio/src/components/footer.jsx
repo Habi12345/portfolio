@@ -1,9 +1,9 @@
 import React from 'react'
-import '../components/footer.css'
+import '../components/styles/footer.css'
 export default function footer() {
   return (
     <>
-        <footer>
+        <footer >
             <span>Portfolio | Developed By Habib Abdulkareem </span>
         </footer>
     </>
