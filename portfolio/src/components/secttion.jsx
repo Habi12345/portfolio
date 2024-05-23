@@ -13,13 +13,13 @@ export default function secttion() {
     ))
     return (
         <>
-            <div className='section'>
+            <div data-aos="fade-down-right"  className='section'>
                 <span className='dev-header'> <strike>development</strike> <strong>Tools</strong></span>
                 <div data-aos="zoom-in-up" className='dev-icon-wrapper'>
                     {showIcons}
                 </div>
             </div>
-            <div className='section'>
+            <div data-aos="fade-up-left" className='section'>
                 <span className='dev-header'> <strike>developed</strike>  <strong>Apps</strong></span>
                 <p> Few collection of my Projects and more projects on my <a href="">Github <i class="fa-brands fa-github"></i></a></p>   
             </div>
