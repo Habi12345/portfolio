@@ -21,7 +21,7 @@ export default function secttion() {
                         <p>HTML</p>
                     </div>
                     <div  data-aos="flip-up" className="dev-icon">
-                        <span> <i class="fa-brands fa-css3"></i></span>
+                         <span> <i class="fa-brands fa-css3"></i></span>
                         <p>CSS</p>
                     </div>
                     <div  data-aos="flip-up" className="dev-icon">
