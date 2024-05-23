@@ -93,43 +93,43 @@
 }
 
 @media (max-width: 768px) {
-  .dev-Icon-wrapper{
+ .dev-Icon-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     
   }
- .dev-Icon {
+.dev-Icon {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     padding: 10px 20px;
     width: 50%;
-    margin-left: 50px;
   }
 
-  .dev-Icon span{
+ .dev-Icon span{
     font-size: 30px;
   }
 
- .projects {
+.projects {
     flex-direction: column;
     align-items: center;
   }
 
- .project-wrapper {
+.project-wrapper {
     margin-bottom: 20px;
     width: 50%;
   }
 }
 
 @media (max-width: 480px) {
- .dev-Icon {
+.dev-Icon {
     flex-direction: column;
   } 
 
- .project-wrapper {
+.project-wrapper {
     width: 60%;
     height: auto;
     padding: 20px;
