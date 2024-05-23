@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../components/header.css'
 export default function header() {
   return (
-    <div className='header'>
+    <div data-aos="fade-down"  className='header'>
         <span>&lt;Habib Abdulkareem/&gt;</span>
         <div className='mid-text'>
            <li><Link to="/secttion">development</Link></li> 

@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom'
 import '../components/secttion.css'
 import devTools from '../components/devTools'
 
-<Route path="/secttion" component={secttion} />
+
 export default function secttion() {
     const showIcons = devTools.map((tool) => (
         <div className="dev-Icon" key={tool.id}>
@@ -15,14 +15,14 @@ export default function secttion() {
         <>
             <div className='section'>
                 <span className='dev-header'> <strike>development</strike> <strong>Tools</strong></span>
-                <div >
+                <div data-aos="zoom-in-up" className='dev-icon-wrapper'>
                     {showIcons}
                 </div>
             </div>
             <div className='section'>
-                <span className='dev-header'> <strike>developed</strike> <strong>Apps</strong></span>
+                <span className='dev-header'> <strike>developed</strike>  <strong>Apps</strong></span>
                 <p> Few collection of my Projects and more projects on my <a href="">Github <i class="fa-brands fa-github"></i></a></p>   
             </div>
-        </>
+        </>  
     )
 }

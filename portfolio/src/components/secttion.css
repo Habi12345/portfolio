@@ -93,6 +93,11 @@
 }
 
 @media (max-width: 768px) {
+  .dev-Icon-wrapperP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
  .dev-Icon {
     align-items: center;
     justify-content: center;
