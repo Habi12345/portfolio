@@ -1,64 +1,66 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-    width: auto;
-    padding: 0 10px;
-    color: #E5E7EB;
-    font-weight: 500;
-    animation: fadeIn 1s ease-in-out;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: auto;
+  padding: 0 10px;
+  color: #e5e7eb;
+  font-weight: 500;
+  animation: fadeIn 1s ease-in-out;
 }
-.header span{
-    margin-left: 20px;
-    font-size: 20px;
+.header span {
+  margin-left: 20px;
+  font-size: 20px;
 }
-.mid-text{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.2rem;
-    margin-right: 50px;
-    font-weight: 200;
+.mid-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  margin-right: 50px;
+  font-weight: 200;
 }
-.mid-text li{
-    list-style: none;
+.mid-text li {
+  list-style: none;
 }
-.mid-text li a{
-    text-decoration: none;
-    color: #E5E7EB;
+.mid-text li a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
-.mid-text li a:hover{
-    color: #ffc003;
-    transition: 1s;
+.mid-text li a:hover {
+  color: #ffc003;
+  transition: 1s;
 }
-.mid-text2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.2rem;
-    font-size: 20px;
-    margin-right: 50px;
+.mid-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  font-size: 20px;
+  margin-right: 50px;
 }
-.mid-text2 li{
-    list-style: none;
+.mid-text2 li {
+  list-style: none;
 }
-.mid-text2 li a{
-    text-decoration: none;
-    color: white;
+.mid-text2 li a {
+  text-decoration: none;
+  color: white;
 }
-.mid-text2 li a:hover{
-    color: #ffc003;
-    transition: 1s;
+.mid-text2 li a:hover {
+  color: #ffc003;
+  transition: 1s;
 }
 .space-invader {
-    /* Modify size here: */
-    --block-size: 5px;
-  
-    box-shadow: 0 0 0 var(--block-size) #333,
+  /* Modify size here: */
+  --block-size: 5px;
+
+  box-shadow: 0 0 0 var(--block-size) #333,
     0 var(--block-size) 0 var(--block-size) #333,
-    calc(var(--block-size) * -2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) #333,
-    calc(var(--block-size) * 2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) #333,
+    calc(var(--block-size) * -2.5) calc(var(--block-size) * 1.5) 0
+      calc(var(--block-size) * 0.5) #333,
+    calc(var(--block-size) * 2.5) calc(var(--block-size) * 1.5) 0
+      calc(var(--block-size) * 0.5) #333,
     calc(var(--block-size) * -3) calc(var(--block-size) * -3) 0 0 #333,
     calc(var(--block-size) * 3) calc(var(--block-size) * -3) 0 0 #333,
     calc(var(--block-size) * -2) calc(var(--block-size) * -2) 0 0 #333,
@@ -85,26 +87,26 @@
     calc(var(--block-size) * -1) calc(var(--block-size) * 4) 0 0 #333,
     var(--block-size) calc(var(--block-size) * 4) 0 0 #333,
     calc(var(--block-size) * 2) calc(var(--block-size) * 4) 0 0 #333;
-    background: #fff;
-    width: var(--block-size);
-    height: var(--block-size);
-    overflow: hidden;
-    position: relative;
-  }
+  background: #fff;
+  width: var(--block-size);
+  height: var(--block-size);
+  overflow: hidden;
+  position: relative;
+}
 
 @media (max-width: 768px) {
- .header {
+  .header {
     flex-direction: column;
     height: auto;
     padding: 10px;
   }
- .mid-text,
- .mid-text2 {
+  .mid-text,
+  .mid-text2 {
     margin-right: 0;
     margin-top: 10px;
   }
- .mid-text li,
- .mid-text2 li {
+  .mid-text li,
+  .mid-text2 li {
     margin: 0 5px;
   }
 }
