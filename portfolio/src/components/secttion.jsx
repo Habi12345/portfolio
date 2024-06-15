@@ -6,7 +6,7 @@ import devTools from "../components/devTools";
 export default function secttion() {
   // const showIcons = devTools.map((tool) => (
   //  <div data-aos="flip-down" className="dev-Icon" key={tool.id}>
-  //   <span>{tool.icon}</span>
+  //   <span>{tool.icon}</span>f2
   //   <p>{tool.name}</p>
   // </div>
   // ))
